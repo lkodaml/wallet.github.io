@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/nullstyle.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Wallet</title>
+</head>
+<body>
+    <main class="main">
+        <section class="payment-section section">
+            <form class="payment-form" method="post" action="">
+                <div class="payment-wrapper">
+                    <div class="payment-header">
+                        <div class="container">
+                            <div class="payment-content">
+                                <h5 class="payment-title">
+                                    <span class="payment-tetle__span-text">Вы покупаете в</span>
+                                    <a href="page-currency.html" class="payment-title__link">AMD <span class="payment-title__link-icon"><svg width="12" height="12" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.46.408a.75.75 0 0 0-.92 0l-4.5 3.5a.75.75 0 1 0 .92 1.184L6 1.95l4.04 3.142a.75.75 0 1 0 .92-1.184l-4.5-3.5ZM1.04 8.092l4.5 3.5c.27.21.65.21.92 0l4.5-3.5a.75.75 0 1 0-.92-1.184L6 10.05 1.96 6.908a.75.75 0 1 0-.92 1.184Z" fill="currentColor"></path></svg></span></a>
+                                </h5>
+                                <div class="payment-area__block">
+                                    <div class="payment-area__wrapper">
+                                        <div class="payment-area-inner">
+                                            <input class="payment-area__input input-flex-size" placeholder="0" type="number">
+                                            <div class="payment-area__currency">TON</div>
+                                        
+                                        </div>
+                                        <div class="payment-area__conversion">
+                                            <span>≈&nbsp;</span>
+                                            <span class="conversion-size">41324 324,04</span>
+                                            <span class="conversion-currency">AMD</span>    
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="payment-footer">
+                        <div class="container">
+                            <div href="#" class="recent-list__link --flex-cont">
+                                <div class="info-list-links__icon-container">
+                                    <div class="info-list-links__icon">
+                                        <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.002 10.5c.008-1.165.055-1.831.325-2.362a3 3 0 0 1 1.311-1.311C5.28 6.5 6.12 6.5 7.8 6.5h12.4c1.68 0 2.52 0 3.162.327a3 3 0 0 1 1.311 1.311c.27.53.317 1.197.325 2.362H3.002Z" fill="#fff"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M3 12.5v5.2c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311c.642.327 1.482.327 3.162.327h12.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C25 20.22 25 19.38 25 17.7v-5.2H3ZM6 18c0-.466 0-.699.076-.883a1 1 0 0 1 .541-.54c.184-.077.417-.077.883-.077h1c.466 0 .699 0 .883.076a1 1 0 0 1 .54.541c.077.184.077.417.077.883s0 .699-.076.883a1 1 0 0 1-.541.54c-.184.077-.417.077-.883.077h-1c-.466 0-.699 0-.883-.076a1 1 0 0 1-.54-.541C6 18.699 6 18.466 6 18Z" fill="#fff"></path></svg> 
+                                    </div>
+                                </div>
+                                <div class="info-list__text-content">
+                                    <span class="info-list__text-title info-list__text-subtitletitle">Метод оплаты</span>
+                                    <span class="info-list__text">Банковская карта</span>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <!-- <button class="payment-area__button">
+                <span class="payment-area__button-arrow payment-area__button-arrow--top">
+                    <svg width="12" height="21" viewBox="0 0 12 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.61307 7.04933C1.52776 7.15416 1.42488 7.23823 1.31057 7.29653C1.19626 7.35483 1.07286 7.38616 0.947735 7.38866C0.822613 7.39115 0.698334 7.36476 0.582318 7.31105C0.466302 7.25734 0.360928 7.17742 0.272486 7.07605C0.184045 6.97469 0.11435 6.85396 0.0675607 6.72108C0.0207714 6.5882 -0.0021519 6.44589 0.00015883 6.30264C0.00246956 6.15939 0.0299664 6.01814 0.0810094 5.88732C0.132052 5.75651 0.205595 5.63881 0.297246 5.54126L4.87409 0.310829C5.23611 -0.103652 5.8251 -0.103652 6.18852 0.310829L10.7654 5.53966C10.93 5.74157 11.0198 6.00874 11.0159 6.28494C11.012 6.56113 10.9146 6.82481 10.7442 7.02044C10.5739 7.21608 10.3439 7.32842 10.1027 7.33381C9.86145 7.33919 9.6278 7.23721 9.45093 7.04933L6.46282 3.63465L6.46282 19.8951C6.46282 20.1779 6.36468 20.4492 6.18999 20.6492C6.01529 20.8492 5.77836 20.9615 5.5313 20.9615C5.28425 20.9615 5.04731 20.8492 4.87262 20.6492C4.69792 20.4492 4.59978 20.1779 4.59978 19.8951L4.59978 3.63465L1.61307 7.04933Z" fill="white"/>
+                    </svg>                                                
+                </span>
+                <span class="payment-area__button-arrow payment-area__button-arrow--bomttom">
+                    <svg width="12" height="21" viewBox="0 0 12 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.3757 13.9394C10.461 13.8346 10.5639 13.7505 10.6782 13.6922C10.7925 13.6339 10.9159 13.6026 11.041 13.6001C11.1662 13.5976 11.2904 13.624 11.4065 13.6777C11.5225 13.7314 11.6278 13.8114 11.7163 13.9127C11.8047 14.0141 11.8744 14.1348 11.9212 14.2677C11.968 14.4006 11.9909 14.5429 11.9886 14.6861C11.9863 14.8294 11.9588 14.9706 11.9078 15.1014C11.8567 15.2323 11.7832 15.35 11.6915 15.4475L7.11468 20.6779C6.75266 21.0924 6.16367 21.0924 5.80025 20.6779L1.22341 15.4491C1.05875 15.2472 0.96893 14.98 0.972871 14.7038C0.976812 14.4276 1.0742 14.164 1.24454 13.9683C1.41487 13.7727 1.64487 13.6604 1.8861 13.655C2.12732 13.6496 2.36097 13.7516 2.53784 13.9394L5.52595 17.3541L5.52595 1.09371C5.52595 0.810862 5.62409 0.539596 5.79878 0.33959C5.97348 0.139584 6.21041 0.0272217 6.45747 0.0272217C6.70452 0.0272217 6.94146 0.139584 7.11615 0.33959C7.29085 0.539596 7.38899 0.810862 7.38899 1.09371L7.38899 17.3541L10.3757 13.9394Z" fill="white"/>
+                    </svg>                                                
+                </span>
+            </button> -->
+        </section>
+    </main>
+    
+    <script src="../js/main.js"></script>
+    <script src="../js/marcet-page.js"></script>
+</body>
+</html>
