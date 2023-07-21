@@ -68,6 +68,8 @@ body{
   font-size: 15px;
   line-height: 18px;
   font-style: normal;
+  overflow: hidden;
+  overflow-y: auto;
 }
 a{
   color: inherit;
